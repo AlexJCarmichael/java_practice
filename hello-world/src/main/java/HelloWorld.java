@@ -1,5 +1,9 @@
 public class HelloWorld {
     public static String hello(String str) {
-        return "Hello, World!";
+        if (str != null) {
+            return "Hello, " + str + "!";
+        } else {
+            return "Hello, World!";
+        }
     }
 }
